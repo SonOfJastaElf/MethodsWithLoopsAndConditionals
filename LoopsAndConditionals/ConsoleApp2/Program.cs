@@ -78,9 +78,13 @@ namespace MethodExercise3
             Console.WriteLine("Put in yet another number");
             int d = int.Parse(Console.ReadLine());
 
-           if (d >= 0)
+           if (d > 0)
             {
                 Console.WriteLine($"{d} is positive");
+            }
+            else if (d == 0)
+            {
+                Console.WriteLine("0 is neither positive nor negative");
             }
             else
             {
